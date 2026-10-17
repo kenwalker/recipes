@@ -1,0 +1,39 @@
+{
+  "slug": "pears-in-wine-syrup",
+  "name": "Pears in Spiced Wine Syrup",
+  "description": "PLACEHOLDER example recipe. Whole pears poached in red wine with honey and warm spices, served in their reduced syrup. Replace with your own tested version.",
+  "ingredients": [
+    "12 firm pears (Bosc or similar), peeled with stems left on",
+    "1 bottle (750 ml) red wine",
+    "1 cup honey",
+    "2 cups water",
+    "1 cinnamon stick",
+    "1 tsp whole cloves",
+    "1/2 tsp ground ginger",
+    "1 strip orange peel"
+  ],
+  "directions": [
+    "Combine the wine, water, honey, spices and orange peel in a pot large enough to hold the pears standing up. Bring to a simmer and stir until the honey dissolves.",
+    "Add the pears, cover with a round of baking parchment, and poach gently 25 to 40 minutes until a knife slides in easily. Turn them once so they colour evenly.",
+    "Lift the pears out to a dish. Boil the liquid hard until reduced to a syrup that coats a spoon, about 20 minutes. Strain out the spices.",
+    "Pour the syrup over the pears. Serve warm or chilled; they keep two days in the syrup and improve."
+  ],
+  "servings": "12",
+  "prep_time": "20 min",
+  "cook_time": "1 hr",
+  "total_time": "1 hr 20 min",
+  "difficulty": "Easy",
+  "categories": ["Feast", "Sweet"],
+  "source": "Placeholder; after 'Wardonys in syrup', Harleian MS 279 (c. 1430)",
+  "source_url": "",
+  "image_url": "",
+  "notes": "PLACEHOLDER: quantities and timings are illustrative and untested. Contains alcohol; a cider or grape-juice version is easy for a dry table.",
+  "nutritional_info": "",
+  "rating": 0,
+  "created": "2026-10-17",
+  "course": "sweet",
+  "base_headcount": 12,
+  "allergens": ["alcohol"],
+  "period_notes": "Pears (wardens) stewed in wine with spices are a common 15th-century English dish; the originals colour the syrup with sanders (red sandalwood) and use mulberries or 'sugar' alongside honey.",
+  "tags": ["placeholder", "vegetarian", "make-ahead"]
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/kenwalker/recipes/schema/recipe.schema.json",
+  "title": "LARP feast recipe",
+  "description": "Canonical recipe format for this catalog. A superset of the fields in a Paprika 3 export so recipes round-trip losslessly, plus optional LARP/feast fields. One recipe per file under recipes/, named <slug>.json.",
+  "type": "object",
+  "required": ["slug", "name", "ingredients", "directions"],
+  "additionalProperties": false,
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Lowercase, hyphen-separated identifier. Must match the file name (recipes/<slug>.json)."
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "ingredients": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "One string per ingredient line, as written. Use plain-text fractions like '1/2 cup', not Unicode fraction characters, so Paprika's scaling works."
+    },
+    "directions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "One string per paragraph/step."
+    },
+    "servings": { "type": "string" },
+    "prep_time": { "type": "string" },
+    "cook_time": { "type": "string" },
+    "total_time": { "type": "string" },
+    "difficulty": { "type": "string", "description": "Paprika's free-text difficulty (e.g. Easy)." },
+    "categories": { "type": "array", "items": { "type": "string" } },
+    "source": { "type": "string" },
+    "source_url": { "type": "string" },
+    "image_url": { "type": "string", "description": "Remote image URL (Paprika's image_url)." },
+    "image": {
+      "type": "string",
+      "pattern": "^images/[^/]+$",
+      "description": "Path to a local photo, relative to the repo root, e.g. images/mujendra.jpg."
+    },
+    "notes": { "type": "string" },
+    "nutritional_info": { "type": "string" },
+    "rating": { "type": "integer", "minimum": 0, "maximum": 5 },
+    "created": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "ISO date, YYYY-MM-DD."
+    },
+    "paprika_uid": {
+      "type": "string",
+      "pattern": "^[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}$",
+      "description": "Paprika's uid, kept so a re-export updates the same recipe in Paprika instead of duplicating it. Set automatically on import; omitted for recipes that never came from Paprika."
+    },
+
+    "course": {
+      "type": "string",
+      "description": "Feast course this dish belongs to, e.g. remove, subtlety, side, bread, sweet."
+    },
+    "base_headcount": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Number of diners the quantities as written feed. Used by the (future) feast planner for scaling."
+    },
+    "allergens": { "type": "array", "items": { "type": "string" } },
+    "period_notes": {
+      "type": "string",
+      "description": "Free text on the historical / thematic basis of the dish."
+    },
+    "tags": { "type": "array", "items": { "type": "string" } }
+  }
+}

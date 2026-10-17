@@ -1,0 +1,41 @@
+{
+  "slug": "mujendra",
+  "name": "Mujendra (Lentils and Rice with Fried Onions)",
+  "description": "PLACEHOLDER example recipe. A simple lentil-and-rice pottage topped with deeply browned onions. Replace with your own tested version.",
+  "ingredients": [
+    "2 cups brown or green lentils",
+    "2 cups long-grain rice",
+    "4 large onions, thinly sliced",
+    "3/4 cup olive oil",
+    "2 tsp ground cumin",
+    "1 tsp ground coriander",
+    "1 1/2 tsp salt",
+    "1/2 tsp black pepper",
+    "8 cups water"
+  ],
+  "directions": [
+    "Rinse the lentils. Bring them to a boil in the water, then simmer about 20 minutes until just tender but still holding their shape.",
+    "Meanwhile heat the olive oil in a wide pan and fry the onions slowly, stirring often, until deep golden brown and starting to crisp, 25 to 30 minutes. Lift out half the onions and set aside for the top.",
+    "Stir the cumin, coriander, salt and pepper into the onions left in the pan, then add the rice and stir to coat.",
+    "Add the rice mixture to the lentils and their liquid. Cover and simmer gently until the rice is cooked and the liquid absorbed, about 20 minutes. Add a splash more water if it dries out early.",
+    "Rest off the heat, covered, 10 minutes. Fluff, pile onto a platter and scatter the reserved onions over the top. Serve warm or at room temperature."
+  ],
+  "servings": "12",
+  "prep_time": "15 min",
+  "cook_time": "1 hr",
+  "total_time": "1 hr 15 min",
+  "difficulty": "Easy",
+  "categories": ["Feast", "Pottage"],
+  "source": "Placeholder; loosely after the Anonymous Andalusian Cookbook (13th c.)",
+  "source_url": "",
+  "image_url": "",
+  "notes": "PLACEHOLDER: quantities and timings are illustrative and untested. Scales well; cook in two pots rather than one giant one.",
+  "nutritional_info": "",
+  "rating": 0,
+  "created": "2026-10-17",
+  "course": "side",
+  "base_headcount": 12,
+  "allergens": [],
+  "period_notes": "Mujaddara-type dishes of lentils and grain with fried onions appear in medieval Arabic cookery, including the 13th-century Andalusian collection. Period versions often use cracked wheat or no rice at all; this one uses rice for ease.",
+  "tags": ["placeholder", "vegan", "make-ahead", "cheap"]
+}

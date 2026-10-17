@@ -1,0 +1,13 @@
+# Build outputs (static site, export bundles)
+build/
+*.paprikarecipes
+*.paprikarecipe
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# OS / editor
+.DS_Store
